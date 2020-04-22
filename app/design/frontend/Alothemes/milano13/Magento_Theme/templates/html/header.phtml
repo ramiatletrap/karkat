@@ -1,0 +1,51 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/**
+ * @var \Magento\Theme\Block\Html\Header $block
+ */ 
+?>
+<link href="//fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet"> 
+<link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+<header class="page-header alothemes">
+    <div class="header header-sticker">	
+		<div class="header-content">
+			<div class="row">
+				<div class="menu-mobile">
+					<span data-action="toggle-nav" class="action nav-toggle"><span><?php /* @escapeNotVerified */ echo __('Toggle Nav') ?></span></span>
+				</div>
+				<div class="content-logo">
+					<div class="header-logo">
+						<?php echo $this->getChildHtml('logo'); ?>
+					</div>
+				</div>
+				<?php echo $this->getChildHtml('navigation.sections'); ?>
+				<div class="header-config">
+					<div class="content-seach">
+						<span class="toggle-tab"><span class="pe-7s-search"></span></span>
+						<div class="search-area toggle-content">
+							<?php echo $this->getChildHtml('top.search'); ?>
+						</div>
+					</div>				
+					<div class="content-cart">					   
+						<?php echo $this->getChildHtml('minicart'); ?>
+					</div>
+					<div class="content-setting">
+						<span class="toggle-tab"><span class="pe-7s-config"></span></span>
+						<div class="toggle-content">
+							<?php echo $this->getChildHtml('header.links'); ?>
+							<?php echo $this->getChildHtml('currency'); ?>
+							<?php echo $this->getChildHtml('store_language'); ?>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+</header>

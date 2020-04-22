@@ -1,0 +1,8 @@
+#For performance and security reasons, this file will have no effect, it's just meant for use in development environments
+Options None
+<FilesMatch "\.(xml|phtml)$">
+    Deny from all
+</FilesMatch>
+<IfModule mod_rewrite.c>
+    RewriteEngine Off
+</IfModule>
