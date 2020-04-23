@@ -11,7 +11,8 @@
         "sort-packages": true
     },
     "require": {
-        "magento/product-community-edition": "2.3.4"
+        "magento/product-community-edition": "2.3.4",
+        "magento2translations/language_et_ee": "dev-master"
     },
     "require-dev": {
         "allure-framework/allure-phpunit": "~1.2.0",

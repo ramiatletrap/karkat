@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf9fb3b9c2c4b0f3814ba0e07017287b",
+    "content-hash": "2957d7be0616e447628d30b3b36a1acc",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -11187,6 +11187,47 @@
             "time": "2019-11-26T15:09:40+00:00"
         },
         {
+            "name": "magento2translations/language_et_ee",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Magento2Translations/language_et_ee.git",
+                "reference": "0849b6491c4502b0bd79262f79ff2b686eac8f5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Magento2Translations/language_et_ee/zipball/0849b6491c4502b0bd79262f79ff2b686eac8f5d",
+                "reference": "0849b6491c4502b0bd79262f79ff2b686eac8f5d",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin van Elst",
+                    "homepage": "https://github.com/MrGekko"
+                },
+                {
+                    "name": "Magento official translations project for Magento 2",
+                    "homepage": "https://crowdin.com/project/magento-2"
+                }
+            ],
+            "description": "Estonian (eesti) Magento2 Language Pack (et_EE) - From Magento2Translations",
+            "homepage": "http://magento2translations.github.io/",
+            "time": "2019-04-18T09:37:05+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.25.3",
             "source": {
@@ -21209,10 +21250,12 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "magento2translations/language_et_ee": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
