@@ -7,13 +7,13 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-<<<<<<< HEAD
+
 	     <!-- <referenceBlock name="checkout.cart.shipping" remove="true" />     
 	     --> <referenceBlock name="alothemes.recent.order" remove="true" />
 	     </body>
-=======
+
         <referenceBlock name="alothemes.recent.order" remove="true" />
         <referenceBlock name="checkout.cart.shipping" remove="true" />
     </body>
->>>>>>> 7a03d39b970cc755fc1c2f737b2c72e8d4e7de5a
+
 </page>
